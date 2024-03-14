@@ -1,0 +1,102 @@
+.laptopList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .laptopItem {
+    margin-bottom: 10px;
+  }
+  
+  .addButton {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .addButton:hover {
+    background-color: #5fe294;
+  }
+  
+  .container {
+    padding: 20px;
+    width: 75%;
+    background-color: #ffffff;
+    
+  }
+  
+  .laptopContainer {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;  
+  }
+  
+  .laptopBox {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: calc(50% - 10px);
+    box-sizing: border-box;
+    background-color: #fff7ed;
+    transition: 400ms ease;
+  }
+  .laptopBox:hover{
+    transform: scale(1.1);
+    background-color: rgb(225, 199, 126);
+  }
+  
+  .laptopBox p {
+    margin: 0;
+  }
+  
+  .addButton {
+    display: block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #3140eebd;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 400ms ease;
+  }
+  
+  .addButton:hover {
+    background-color: #9a9b9d;
+  }
+
+   /* special effects*/
+  .listHead{
+    font-size: 80px;
+    text-transform: uppercase;
+    font-family: 'Gambetta', serif;
+    letter-spacing: -3px;
+    transition: 700ms ease;
+    font-variation-settings: "wght" 311;
+    margin-bottom: 0.8rem;
+    color: rgb(39, 38, 28);
+    outline: none;
+    text-align: center;
+  }
+  .listHead:hover {
+    font-variation-settings: "wght" 582; 
+    letter-spacing: 1px;
+    color: rgb(202, 162, 61);
+  }
+
+ 
+  .container2 {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+  }
+  
+
+  

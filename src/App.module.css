@@ -1,0 +1,71 @@
+
+.appContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #623c0b;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+
+  .logoutbtn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .logoutbtn:hover {
+    background-color: #5b5b5b;
+  }
+  
+
+  body{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    
+    
+    background-image: url("https://images.unsplash.com/photo-1528460033278-a6ba57020470?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+  .mainHead{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight:bold;
+    letter-spacing: 1px;
+    line-height: 1em;
+    font-size: 4em;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+    transform: translate(-50%,-50%);
+    background-image: linear-gradient(rgba(45, 213, 251, 0.764), rgb(212, 207, 239));
+    background-size: 100% 10px;
+    background-repeat:no-repeat;
+    background-position: 100% 100%;
+    transition: background-size .6s, background-position .1s ease-in-out;
+  }
+
+
+  .mainHead:hover {
+    background-size: 100% 100%;
+    background-position: 0% 100%;
+    
+    transition: background-position .7s, background-size .5s ease-in-out;
+  }

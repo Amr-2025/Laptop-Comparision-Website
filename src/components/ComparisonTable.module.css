@@ -1,0 +1,70 @@
+.comparisonTable {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #edf2f7;
+    list-style-type: none;  
+
+  }
+  
+  th, td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f7e4c3;
+    height: 50px;
+  }
+
+  td {
+    height: 100px;
+  }
+  
+  th:first-child, td:first-child {
+    padding-left: 20px;
+  }
+  
+  .removeButton {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .removeButton:hover {
+    background-color: #bd2130;
+  }
+
+  .container2 {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    background-color: white;
+    
+  }
+  .compHead{
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: 'Gambetta', serif;
+    letter-spacing: -3px;
+    transition: 700ms ease;
+    font-variation-settings: "wght" 311;
+    margin-bottom: 0.8rem;
+    color: rgb(39, 38, 28);
+    outline: none;
+    text-align: center;
+    border-bottom: #bd2130 5px;
+  }
+
+  .compHead:hover{
+    font-variation-settings: "wght" 582; 
+    letter-spacing: 1px;
+    color: rgb(202, 162, 61);
+  }
